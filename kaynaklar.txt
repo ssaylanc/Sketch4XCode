@@ -1,0 +1,16 @@
+
+
+// Tasarım Kaynakları
+sketchappsources.com
+dribbble.com
+
+
+// TableView için kaynak
+https://developer.apple.com/library/content/referencelibrary/GettingStarted/DevelopiOSAppsSwift/CreateATableView.html
+
+
+// CollectionView için kaynak
+https://www.raywenderlich.com/136159/uicollectionview-tutorial-getting-started
+
+// JSON datası nasıl parse edilir (SwiftyJSON kütüphanesi ile)ß
+https://www.hackingwithswift.com/read/7/3/parsing-json-data-and-swiftyjson
