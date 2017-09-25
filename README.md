@@ -5,7 +5,12 @@
 iOS Tasarım Atölyesi boyunca kullanılacak tüm içerik burada yer almaktadır. 
 İleriye dönük olarak sunum dosyaları ve uygulama örnekleri eklenecektir. Üzerinde çalışma yapacaksanız lütfen repo'yu fork ediniz.
 
-## Usage
+## Eklenecek Uygulama Örnekleri
+
+- [x] TableView Temelleri (Uygulamalar 1 - 6)
+- [ ] TableView Coredata, JSON Parse (Uygulamalar 7 - 8)
+
+## Kullanım
 
 1) Repository'yi indirin
 
@@ -20,13 +25,13 @@ $ cd Sketch4XCode/Uygulamalar
 $ pod install
 ```
 
-3) Pod yoksa 
+3) Podlar yüklenmedi ise
 
 ```
 $ open ornek.xcodeproj
 ```
 
-3.1) Pod varsa
+4) Podlar yüklendi ise
 
 ```
 $ open ornek.xcworkspace
