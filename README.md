@@ -3,12 +3,16 @@
 ![](Görseller/UygulamaAtolyesiGorsel.png)
 
 iOS Tasarım Atölyesi boyunca kullanılacak tüm içerik burada yer almaktadır. 
-İleriye dönük olarak sunum dosyaları ve uygulama örnekleri eklenecektir. Üzerinde çalışma yapacaksanız lütfen repo'yu fork ediniz.
+İleriye dönük olarak sunum dosyaları ve uygulama örnekleri eklenecektir. Üzerinde çalışma yapacaksanız lütfen repo'yu fork ediniz. Yararlı olabilecek link'ler "Kaynaklar" dosyasındadır.
 
 ## Eklenecek Uygulama Örnekleri
 
-- [x] TableView Temelleri (Uygulamalar 1 - 6)
-- [ ] TableView Coredata, JSON Parse (Uygulamalar 7 - 8)
+- [x] TableView Temelleri (Uygulamalar 1 - 4)
+- [x] TableView Header (Uygulamalar 7 - 8)
+- [x] Parallax Scrolling TableView Eklendi (Bonus)
+- [ ] TableView Coredata, JSON Parse (Uygulamalar 9 - 10) --> Çok yakında
+- [ ] CollectionView Temelleri  --> 1 Ekim sonrası eklenecek
+- [ ] CollectionView + TableView --> 1 Ekim sonrası eklenecek
 
 ## Kullanım
 
