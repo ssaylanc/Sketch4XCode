@@ -25,13 +25,13 @@ $ cd Sketch4XCode/Uygulamalar
 $ pod install
 ```
 
-3) Pod yoksa 
+3) Podlar yüklenmedi ise
 
 ```
 $ open ornek.xcodeproj
 ```
 
-3) Pod varsa
+4) Podlar yüklendi ise
 
 ```
 $ open ornek.xcworkspace
