@@ -5,10 +5,10 @@
 iOS Tasarım Atölyesi boyunca kullanılacak tüm içerik burada yer almaktadır. 
 İleriye dönük olarak sunum dosyaları ve uygulama örnekleri eklenecektir. Üzerinde çalışma yapacaksanız lütfen repo'yu fork ediniz.
 
-## Yapılacaklar
+## Eklenecek Uygulama Örnekleri
 
-- [x] TableView Temelleri
-- [ ] TableView Coredata, JSON Parse
+- [x] TableView Temelleri (Uygulamalar 1 - 6)
+- [ ] TableView Coredata, JSON Parse (Uygulamalar 7 - 8)
 
 ## Kullanım
 
