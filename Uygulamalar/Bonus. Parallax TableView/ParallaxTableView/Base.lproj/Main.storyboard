@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="pCm-kS-2K7">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Table View Controller-->
+        <scene sceneID="QRL-SY-xAc">
+            <objects>
+                <tableViewController id="pCm-kS-2K7" customClass="TableViewController" customModule="ParallaxTableView" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="175" sectionHeaderHeight="28" sectionFooterHeight="28" id="8jM-3V-8rs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="175" id="4Vh-bk-awp" customClass="TableViewCell" customModule="ParallaxTableView" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="175"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="4Vh-bk-awp" id="jFX-FT-xcn">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="175"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Tfp-Xx-kco">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="175"/>
+                                            <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="0.57751389953987731" colorSpace="calibratedRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="175" id="aoC-fZ-Cz3"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Parallax" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PQm-9T-f5o">
+                                            <rect key="frame" x="141.5" y="73" width="91" height="29"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="Tfp-Xx-kco" firstAttribute="leading" secondItem="jFX-FT-xcn" secondAttribute="leading" id="Hf4-AJ-rUu"/>
+                                        <constraint firstAttribute="trailing" secondItem="Tfp-Xx-kco" secondAttribute="trailing" id="QkE-Io-cSe"/>
+                                        <constraint firstItem="PQm-9T-f5o" firstAttribute="centerX" secondItem="jFX-FT-xcn" secondAttribute="centerX" id="RMu-9s-BDI"/>
+                                        <constraint firstItem="Tfp-Xx-kco" firstAttribute="top" secondItem="jFX-FT-xcn" secondAttribute="top" id="fTd-Je-lgX"/>
+                                        <constraint firstItem="PQm-9T-f5o" firstAttribute="centerY" secondItem="jFX-FT-xcn" secondAttribute="centerY" id="u3K-Pf-Xc9"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="backgroundImage" destination="Tfp-Xx-kco" id="JVs-3H-5WJ"/>
+                                    <outlet property="parallaxHeight" destination="aoC-fZ-Cz3" id="S7r-qD-OMo"/>
+                                    <outlet property="parallaxTop" destination="fTd-Je-lgX" id="UnF-Hb-QM2"/>
+                                    <outlet property="titleLabel" destination="PQm-9T-f5o" id="D6r-H0-48T"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="pCm-kS-2K7" id="ews-ak-NOn"/>
+                            <outlet property="delegate" destination="pCm-kS-2K7" id="BIy-WZ-zwg"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tga-We-OQl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="76" y="147.97601199400302"/>
+        </scene>
+    </scenes>
+</document>
