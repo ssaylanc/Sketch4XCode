@@ -31,7 +31,7 @@ $ pod install
 $ open ornek.xcodeproj
 ```
 
-3.1) Pod varsa
+3) Pod varsa
 
 ```
 $ open ornek.xcworkspace
