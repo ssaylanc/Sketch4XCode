@@ -1,0 +1,6 @@
+framework module Pods_TableView_JSONParsing {
+  umbrella header "Pods-TableView+JSONParsing-umbrella.h"
+
+  export *
+  module * { export * }
+}
