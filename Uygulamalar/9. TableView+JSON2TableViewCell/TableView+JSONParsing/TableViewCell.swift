@@ -108,7 +108,7 @@ class TableViewCell: UITableViewCell {
         
         if let urlString = self.makale?["author_image"]{
             self.avatarImageView.sd_setImage(with: URL(string: urlString.stringValue), placeholderImage:UIImage(contentsOfFile:"default_avatar.png"))
-            self.avatarImageView.layer.cornerRadius = 6
+            self.avatarImageView.layer.cornerRadius = 25
             self.avatarImageView.clipsToBounds = true
         }
         
