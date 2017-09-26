@@ -8,9 +8,11 @@ iOS Tasarım Atölyesi boyunca kullanılacak tüm içerik burada yer almaktadır
 ## Eklenecek Uygulama Örnekleri
 
 - [x] TableView Temelleri (Uygulamalar 1 - 4)
-- [x] TableView Header (Uygulamalar 7 - 8)
+- [x] TableView Header + Section (Uygulamalar 5 - 6)
 - [x] Parallax Scrolling TableView Eklendi (Bonus)
-- [ ] TableView Coredata, JSON Parse (Uygulamalar 9 - 10) --> Çok yakında
+- [x] Segue'ler Arasında Data Gönderme Eklendi (Uygulamalar 7)
+- [x] JSON Dosyasını Parse Etme Eklendi (Uygulamalar 8)
+- [x] JSON Dosyasından Tablolaya Data Yazma Eklendi (Uygulamalar 9)
 - [ ] CollectionView Temelleri  --> 1 Ekim sonrası eklenecek
 - [ ] CollectionView + TableView --> 1 Ekim sonrası eklenecek
 
