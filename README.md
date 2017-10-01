@@ -1,6 +1,6 @@
 # iOS Uygulama Tasarım Atölyesi - Sketch4XCode
 
-!!! Slack grubundan Skettc4XCode (sketch4xcode.slack.com) her türlü sorunuzu iletebilirsiniz. 
+!!! Slack grubundan Skethc4XCode (http://sketch4xcode.slack.com) her türlü sorunuzu iletebilirsiniz. 
 
 ![](Görseller/UygulamaAtolyesiGorsel.png)
 
