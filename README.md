@@ -1,5 +1,7 @@
 # iOS Uygulama Tasarım Atölyesi - Sketch4XCode
 
+!!! Slack grubundan Skettc4XCode (sketch4xcode.slack.com) her türlü sorunuzu iletebilirsiniz. 
+
 ![](Görseller/UygulamaAtolyesiGorsel.png)
 
 iOS Tasarım Atölyesi boyunca kullanılacak tüm içerik burada yer almaktadır. 
@@ -7,14 +9,16 @@ iOS Tasarım Atölyesi boyunca kullanılacak tüm içerik burada yer almaktadır
 
 ## Eklenecek Uygulama Örnekleri
 
-- [x] TableView Temelleri (Uygulamalar 1 - 4)
-- [x] TableView Header + Section (Uygulamalar 5 - 6)
-- [x] Parallax Scrolling TableView Eklendi (Bonus)
-- [x] Segue'ler Arasında Data Gönderme Eklendi (Uygulamalar 7)
-- [x] JSON Dosyasını Parse Etme Eklendi (Uygulamalar 8)
-- [x] JSON Dosyasından Tablolaya Data Yazma Eklendi (Uygulamalar 9)
-- [ ] CollectionView Temelleri  --> 1 Ekim sonrası eklenecek
-- [ ] CollectionView + TableView --> 1 Ekim sonrası eklenecek
+- [x] TableView Temelleri (Uygulamalar 1.1 - 1.4)
+- [x] TableView Header + Section (Uygulamalar 1.5 - 1.6)
+- [x] Parallax Scrolling TableView Eklendi (1.Bonus)
+- [x] Segue'ler Arasında Data Gönderme Eklendi (Uygulamalar 1.7)
+- [x] JSON Dosyasını Parse Etme Eklendi (Uygulamalar 1.8)
+- [x] JSON Dosyasından Tablolaya Data Yazma Eklendi (Uygulamalar 1.9)
+- [x] TableView CoreData Örneği Eklendi (Uygulamalar 1.10)
+- [x] API'den JSON Parse Etme, CollectionView'da Gösterme Eklendi(Uygulamalar 2.1)
+- [ ] CollectionView Temelleri  --> Eklenecek
+- [ ] CollectionView + TableView --> Eklenecek
 
 ## Kullanım
 
